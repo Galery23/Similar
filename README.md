@@ -4,7 +4,7 @@
 
 
 ## 📖 Introduction
-Welcome to the official repository for the paper "Boosting Virtual Agent Learning and Reasoning: A Step-wise, Multi-dimensional, and Generalist Reward Model with Benchmark". In this work, we propose **Similar**, a **S**tep-w**i**se **M**ult**i**-dimensiona**l** Gener**a**list **R**eward Model designed to enhance the training and reasoning capabilities of Generalist Virtual Agents (GVAs) powered by Multimodal Large Language Models (MLLMs). This project addresses critical limitations in current GVA training paradigms, such as the reliance on outcome supervision and labor-intensive human annotations, by introducing a novel approach to fine-grained, step-wise supervision. We are excited to open-source our **Similar** reward model and the **SRMEval** test dataset, providing the research community with valuable resources to advance the development of virtual agents.
+Welcome to the official repository for the paper "Boosting Virtual Agent Learning and Reasoning: A Step-wise, Multi-dimensional, and Generalist Reward Model with Benchmark". In this work, we propose **Similar**, a **S**tep-w**i**se **M**ult**i**-dimensiona**l** Gener**a**list **R**eward Model designed to enhance the training and reasoning capabilities of Generalist Virtual Agents (GVAs) powered by Multimodal Large Language Models (MLLMs). This project addresses critical limitations in current GVA training paradigms, such as the reliance on outcome supervision and labor-intensive human annotations, by introducing a novel approach to fine-grained, step-wise supervision. We are excited to open-source our **Similar** reward model and the ***SRMEval*** test dataset, providing the research community with valuable resources to advance the development of virtual agents.
 
 ![Overview](assets/figures/Overview.png)
 
@@ -41,10 +41,10 @@ GVAs are designed to process multimodal inputs (e.g., UI elements, text, visuals
 
 - **Five Key Dimensions**: We define five dimensions for step-wise GVA assessment and introduce an automated framework using MCTS-P to collect fine-grained, cross-platform reward model data annotations.
 - **Triple-M Strategy**: We propose a Triple-M strategy to train **Similar**, integrating multiple dimensions and generating synergistic gains for robust, fine-grained feedback.
-- **SRM Benchmark**: We introduce **SRMEval**, a multi-step, multi-dimensional benchmark for evaluating reward models, advancing research in reward model performance assessment.
+- **SRM Benchmark**: We introduce ***SRMEval***, a multi-step, multi-dimensional benchmark for evaluating reward models, advancing research in reward model performance assessment.
 - **Superior Performance**: Our approach achieves superior GVA performance across diverse tasks and environments, demonstrating the effectiveness of step-wise multi-dimensional assessment and synergistic expert integration.
 
-We are pleased to open-source our **Similar** reward model and the **SRMEval** test dataset, providing the community with tools to further advance the field of Generalist Virtual Agents. For more details, please refer to our paper and the accompanying documentation.
+We are pleased to open-source our **Similar** reward model and the ***SRMEval*** test dataset, providing the community with tools to further advance the field of Generalist Virtual Agents. For more details, please refer to our paper and the accompanying documentation.
 
 ## 🛠️ Setups for SRMEval
 

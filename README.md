@@ -48,6 +48,14 @@ We are pleased to open-source our **Similar** reward model and the ***SRMEval***
 
 ## 🛠️ Setups for SRMEval
 
+Since reward models are crucial for enhancing GVAs' performance, and prior research has not focused on evaluating specific reward models, we propose **SRM**, the first benchmark in the virtual agent domain for step-wise, multi-dimensional reward model training and evaluation.
+
+we proposed a new task for reward models in the virtual agent domain: *Selecting the better action (i.e., the chosen action) from two actions at step $i$ for a given instruction task*. The evaluation metric is Accuracy, measuring the reward model's ability to select the better action. Accuracy is calculated under a specific evaluation type.
+
+Here are some cases of *SRMEval*.
+
+![Overview](assets/figures/case_of_SRMEval.png)
+
 
 
 ## 🛠️ Setups for Similar
